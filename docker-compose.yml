@@ -9,7 +9,7 @@ services:
             - "8000:8000"
             - "9000:9000"
         volumes:
-            - ./gatsby:/home/node/app
+            - ./gatsby:/home/node
         environment:
             - NODE_ENV=development
         stdin_open: true

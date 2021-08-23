@@ -12,6 +12,5 @@ $ docker exec -it gatsby bash
 ### devサーバーの立ち上げ
 ```bash
 # /home/node/app/
-$ cd app
 $ npm run develop
 ```

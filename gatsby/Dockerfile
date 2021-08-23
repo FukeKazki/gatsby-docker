@@ -5,6 +5,7 @@ WORKDIR /home/node/app
 RUN apt-get update && \
     apt-get install -y git
 
-RUN npm install -g gatsby-cli
+RUN npm install -g gatsby-cli && \
+    npm install
 
 EXPOSE 8000 9000
